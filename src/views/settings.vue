@@ -1,0 +1,30 @@
+<template>
+  <div class="w-screen h-screen flex">
+
+    
+      
+     <sidebar/>
+    
+
+    
+    <div class="flex-1 bg-gray-100 overflow-y-auto">
+     
+      <Header/>
+      <div class="p-4">
+       
+        <Setting/>
+      </div>
+     
+    
+    </div>
+  </div>
+</template>
+
+<script setup>
+import Header from '@/components/Header.vue';
+import Setting from '@/components/Setting.vue';
+import sidebar from '@/components/sidebar.vue';
+
+
+
+</script>

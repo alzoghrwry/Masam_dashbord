@@ -1,0 +1,42 @@
+
+@import "tailwindcss";
+
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@layer utilities {
+  .dark .bg-dark { background-color: #1a202c; }
+  .dark .bg-dark-secondary { background-color: #2d3748; }
+  .dark .text-light { color: #f8fafc; }
+  .dark .text-muted { color: #cbd5e0; }
+  .dark .border-muted { border-color: #4a5568; }
+  .dark .hover-highlight { color: #A0F0E0; }
+
+
+.input {
+  @apply border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 w-full;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300;
+}
+
+.btn-edit {
+  @apply bg-blue-500 text-white px-3 py-1 rounded;
+}
+
+.btn-delete {
+  @apply bg-red-500 text-white px-3 py-1 rounded;
+}
+img {
+  @apply object-cover;
+}
+.input-style {
+  @apply border border-gray-300 dark:border-gray-600 bg-white dark:bg-[#273834] text-gray-800 dark:text-white rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+}
