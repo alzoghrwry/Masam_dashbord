@@ -3,6 +3,23 @@
 
 @tailwind utilities;
 @custom-variant dark (&:where(.dark, .dark *));
+@theme{
+  --color-primary:#010F45;
+  --color-sucandary:#0D2617;
+  --color-s :oklch(0.36 0.08 150.45);
+  --color-linear-gradient:linear-gradient(to right, var(--primary), #28a7455c);
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@layer utilities {
+  .dark .bg-dark { background:#1a202c; }
+  .dark .text-light { color:#f8fafc; }
+   
+  .text-shadow {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  }
+}
 
 
 @layer utilities {

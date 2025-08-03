@@ -9,7 +9,7 @@
           <img src="../assets/masam-logo-v2.png" class="w-full" />
         </div>
         <div v-if="!isCollapsed" class="text-black text-nowrap dark:text-white">
-          <h3 class="font-bold text-xl">لوحة تحكم</h3>
+          <h3 class="font-bold text-xl"> مشروع مسام</h3>
         </div>
       </div>
 

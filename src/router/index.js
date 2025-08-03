@@ -7,8 +7,10 @@ import story from '@/views/story.vue'
 import User from '@/views/Users.vue'
 import settings from '@/views/settings.vue'
 
+
 const routes = [
-  { path: '/', name: 'Login', component: Login } ,
+  { path: '/', name: 'Homepage', component: () => import('@/HomePage/pages/Home.vue')} ,
+  { path: '/Login', name: 'Login', component: Login } ,
   { path: '/home', name: 'Home', component: Home },        
   { path: '/users', name: 'User', component: User },        
   { path: '/news', name: 'News', component: News },

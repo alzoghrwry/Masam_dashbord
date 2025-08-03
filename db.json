@@ -23,22 +23,45 @@
       "message": "حفظك الله اخي",
       "read": false,
       "createdAt": "2025-08-02T18:22:07.339Z"
+    },
+    {
+      "id": "b324",
+      "name": "8777777",
+      "email": "dhpha@gmai.com",
+      "message": "5555",
+      "read": false,
+      "createdAt": "2025-08-03T08:20:50.038Z"
+    },
+    {
+      "id": "e006",
+      "name": "ahmed alzoghrory",
+      "email": "ahmedalzoghrory@gmail.com",
+      "message": "gggggg",
+      "read": false,
+      "createdAt": "2025-08-03T16:58:37.390Z"
     }
   ],
   "users": [
-    {
-      "id": "6b7f",
-      "name": "احمد محمد احمد غالب",
-      "email": "ahmed@gmail.com",
-      "password": "12345",
-      "role": "مدير"
-    },
     {
       "id": "8bc1",
       "name": "عرفان محمد ",
       "email": "arfan@gmail.com",
       "password": "12345",
       "role": "موظف عادي"
+    },
+    {
+      "id": "634d",
+      "name": "9898989",
+      "email": "oioioio@oio.po",
+      "password": "iuiuiu",
+      "role": "مدير"
+    },
+    {
+      "id": "5e6f",
+      "name": "ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "12345",
+      "role": "مدير"
     }
   ],
   "stories": [
@@ -77,21 +100,21 @@
   ],
   "news": [
     {
-      "id": 1754160004590,
+      "id": "1754160004590",
       "title": "نزول الصرف",
       "date": "2025-08-07",
       "content": "لللبييخ",
       "image": ""
     },
     {
-      "id": 1754160057511,
+      "id": "1754160057511",
       "title": "واقع مرير",
       "date": "2025-08-13",
       "content": "واقع يفقد للانسان شغق الحياة",
       "image": ""
     },
     {
-      "id": 1754180522595,
+      "id": "1754180522595",
       "title": "مسام ينزع 2111 لغماً وذخيرة غير منفجرة وعبوة ناسفة",
       "date": "2025-08-12",
       "content": "علنت غرفة عمليات مشروع مسام أن الفرق نزعت الأسبوع الماضي 861 لغماً وذخيرة غير منفجرة وعبوة ناسفة، ليصل بذلك مجموع ما تم نزعه منذ بداية شهر فبراير 2111.",

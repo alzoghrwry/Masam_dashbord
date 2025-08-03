@@ -1,6 +1,6 @@
 <template>
   <div class="p-6 space-y-6">
-    <h1 class="text-2xl font-bold mb-6 dark:text-white">الإعدادات</h1>
+    <h1 class="text-2xl font-bold mb-6 dark:text-black">الإعدادات</h1>
 
     <div class="flex gap-4 flex-wrap">
      
@@ -11,7 +11,7 @@
                dark:bg-[#273834] dark:hover:bg-[#33494a] dark:text-white"
       >
         <i :class="isDark ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-gray-800 dark:text-yellow-400'"></i>
-        <span>{{ isDark ? 'وضع النهار' : 'الوضع الليلي' }}</span>
+        
       </button>
 
      

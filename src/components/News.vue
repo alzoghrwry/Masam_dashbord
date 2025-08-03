@@ -45,13 +45,13 @@
       <button
         class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 transition"
       >
-        {{ editId ? 'تحديث' : 'إضافة' }}
+        {{ editId ? 'تحديث' : 'اضافة' }}
       </button>
     </form>
 
  
     <Table
-      title="قائمة الأخبار"
+      title="قائمة الاخبار"
       :headers="[
         { key: 'title', label: 'العنوان' },
         { key: 'date', label: 'التاريخ' },
